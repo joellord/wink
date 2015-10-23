@@ -1,0 +1,47 @@
+{
+  "name": "wink",
+  "version": "0.1.0",
+  "description": "Wink is a node module to simplify the usage of the Wink API.",
+  "homepage": "",
+  "repository": "joellord/wink",
+  "author": {
+    "name": "Joel Lord",
+    "email": "joelphy@gmail.com",
+    "url": "http://www.github.com/joellord"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "wink",
+    "home automation",
+    "api",
+    "wrapper"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "jshint-stylish": "^1.0.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0",
+    "chai": "*",
+    "request": "*",
+    "bluebird": "*"
+  },
+  "dependencies": {
+    "request": "*",
+    "bluebird": "*"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
